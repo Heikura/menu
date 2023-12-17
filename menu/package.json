@@ -3,6 +3,7 @@
   "version": "0.1.0",
   "homepage": "https://heikura.github.io/menu",
   "private": true,
+  "main": "src/index.js",
   "dependencies": {
     "@testing-library/jest-dom": "^5.17.0",
     "@testing-library/react": "^13.4.0",
@@ -30,6 +31,7 @@
     "production": [
       ">0.2%",
       "not dead",
+      "not ie <= 11",
       "not op_mini all"
     ],
     "development": [
