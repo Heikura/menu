@@ -15,7 +15,7 @@ export default function App() {
       <Logo></Logo>
       <h1> Vivia's Fine Dining </h1>
       <h2> Tarinamme</h2>
-      <div>Vivian kiertävä ravintola ei sido sinua paikkaan, vaan se saapuu suoraan kotikeittiöösi. Soijakastike muuttuu taikajuomaksi, ja riisi muuttuu pieniksi valkoisiksi pilviksi. Vivia tuo mukanaan aasialaisen makujen seikkailun, joka ei vaadi sinua poistumaan kotoasi. Hänen ravintolansa on liikkuva keittiö, joka tarjoaa herkullisia aterioita ja aitoja makuelämyksiä missä ikinä oletkin. Anna Vivian viedä sinut matkalle, joka yhdistää ruoan ilon ja kodikkuuden suoraan sinun ruokapöytääsi.</div>
+      <div>Vivian kiertävä ravintola ei sido sinua paikkaan, vaan se saapuu suoraan kotikeittiöösi. Soijakastike muuttuu taikajuomaksi, ja riisi muuttuu pieniksi valkoisiksi pilviksi. Vivia tuo mukanaan aasialaisen makujen seikkailun, joka ei vaadi sinua poistumaan kotoasi. Ravintolamme on liikkuva keittiö, joka tarjoaa herkullisia aterioita ja aitoja makuelämyksiä missä ikinä oletkin. Anna Vivian viedä sinut matkalle, joka yhdistää ruoan ilon ja kodikkuuden suoraan sinun ruokapöytääsi.</div>
       <h2>Menu tofu (voimassa 22.-27.12.2023)</h2>
         <Mains meals={[
                 {
