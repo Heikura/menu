@@ -14,22 +14,26 @@ export default function App() {
       <div className="menu">
       <Logo></Logo>
       <h1> Vivia's Fine Dining </h1>
-      <h3> Tarinamme</h3>
-      <div>Tervetuloa matkalle makujen maailmaan, jossa soijakastike on taikajuomaa ja riisi on pieniä valkoisia pilviä! Meidän aasialaisessa ravintolassamme tapahtuu enemmän kuin pelkkää ruoanlaittoa – se on seikkailu, joka kuljettaa sinut suoraan lapsiperheen arkeen.</div>
+      <h2> Tarinamme</h2>
+      <div>Vivian kiertävä ravintola ei sido sinua paikkaan, vaan se saapuu suoraan kotikeittiöösi. Soijakastike muuttuu taikajuomaksi, ja riisi muuttuu pieniksi valkoisiksi pilviksi. Vivia tuo mukanaan aasialaisen makujen seikkailun, joka ei vaadi sinua poistumaan kotoasi. Hänen ravintolansa on liikkuva keittiö, joka tarjoaa herkullisia aterioita ja aitoja makuelämyksiä missä ikinä oletkin. Anna Vivian viedä sinut matkalle, joka yhdistää ruoan ilon ja kodikkuuden suoraan sinun ruokapöytääsi.</div>
+      <h2>Menu tofu (voimassa 22.-27.12.2023)</h2>
         <Mains meals={[
                 {
                   "name": "Alkuruoka",
-                  "description": "Mushroom soup with fresh home baked bread.",
+                  "name2": "THAI TOFU LARB | THAIMAALAINEN SALAATTI VIVIAN TAPAAN",
+                  "description": "Larb gai on Thaimaassa ja Laosissa suositti salaatti, jossa maustettua jauhelihaa tarjoillaan salaatinlehdellä. Kasvis-larbissa käytetään rapeaa aasialaisittain marinoitua tofua, joka paahtuu helposti rapeaksi pannulla. Lisäksi salaatissa on paljon tuoreita yrttejä ja chiliä tuomaan potkua.",
                   "price": "17"
                 },
                 {
                   "name": "Pääruoka",
-                  "description": "Mushroom soup with fresh home baked bread.",
+                  "name2": "KOREAN FRIED TOFU (KFT) BUN | KOREALAISET HÖYRYTETYT TOFU-BUNIT",
+                  "description": "Rapeat tofupalat tahmeassa, makean tulisessa kastikkeessa ja Vivian kiertävässä keittiössä höyrytetyt korealaiset sämpylät. Annosta täydentävät kimchi sekä pikkelöidyt kurkut.",
                   "price": "17"
                 },
                 {
                   "name": "Jälkiruoka",
-                  "description": "Mushroom soup with fresh home baked bread.",
+                  "name2": "SULOISEN SUOMALAINEN MARJA-SORBETTI KEKSIN KERA",
+                  "description": "Nauti makujen lumosta viimeistä piirtoa myöten herkullisella suomalaisella marja-sorbetilla, joka tarjoillaan tuoreiden kotimaisten marjojen ja rapean keksin kera. Tämä raikas ja värikäs jälkiruoka kruunaa ateriasi makealla huipentumalla, jättäen sinulle ikimuistoisen makukokemuksen.",
                   "price": "17"
                 },]
         } />
@@ -48,7 +52,11 @@ export default function App() {
             
           ]} /> */}
       </aside>
-      Huomioimme mahdollisuuksien mukaan kaikki erityisruokavaliot ja allergiat yksilöllisesti. Ilmoitathan niistä meille ennakkoon, jotta voimme tehdä kaikkemme taataksemme ikimuistoisen illan.
+      Varaathan menun nauttimiseen reilut kaksi tuntia.
+
+      <li>Menu 59 € / vieras</li>
+      <li>Juomat 41 € / vieras </li>
+      <div>Huomioimme mahdollisuuksien mukaan kaikki erityisruokavaliot ja allergiat yksilöllisesti. Ilmoitathan niistä meille ennakkoon, jotta voimme tehdä kaikkemme taataksemme ikimuistoisen illan.</div>
       </div>
     </Provider>
   );

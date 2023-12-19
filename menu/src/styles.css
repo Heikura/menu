@@ -54,7 +54,7 @@
   @media (min-width: 660px) {
     .menu {
       display: grid;
-      grid-gap: 1.5rem;
+      grid-gap: 2rem;
       align-items: center;
     }
   }
@@ -90,7 +90,11 @@
     margin: 0;
     flex-grow: 1;
   }
-  
+  .mains-name2 {
+    margin: 0;
+    flex-grow: 4;
+  }
+
   .mains-description {
     flex: 1 1 100%;
     margin: 0.75rem 0 0;
