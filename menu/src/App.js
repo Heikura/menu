@@ -14,9 +14,9 @@ export default function App() {
       <div className="menu">
       <Logo></Logo>
       <h1> Vivia's Fine Dining </h1>
-      <h2> Tarinamme</h2>
+      <h2 className="tarinamme"> Tarinamme</h2>
       <div>Vivian kiertävä ravintola ei sido sinua paikkaan, vaan se saapuu suoraan kotikeittiöösi. Soijakastike muuttuu taikajuomaksi, ja riisi muuttuu pieniksi valkoisiksi pilviksi. Vivia tuo mukanaan aasialaisen makujen seikkailun, joka ei vaadi sinua poistumaan kotoasi. Ravintolamme on liikkuva keittiö, joka tarjoaa herkullisia aterioita ja aitoja makuelämyksiä missä ikinä oletkin. Anna Vivian viedä sinut matkalle, joka yhdistää ruoan ilon ja kodikkuuden suoraan sinun ruokapöytääsi.</div>
-      <h2>Menu tofu (voimassa 22.-27.12.2023)</h2>
+      <h2 className="asd">Menu tofu (voimassa 22.-27.12.2023)</h2>
         <Mains meals={[
                 {
                   "name": "Alkuruoka",
@@ -52,7 +52,8 @@ export default function App() {
             
           ]} /> */}
       </aside>
-      Varaathan menun nauttimiseen reilut kaksi tuntia.
+      <h3 className="lisatiedot"> Lisätiedot</h3>
+      <div>Varaathan menun nauttimiseen reilut kaksi tuntia.</div>
 
       <li>Menu 59 € / vieras</li>
       <li>Juomat 41 € / vieras </li>

@@ -85,6 +85,9 @@
   .mains {
     grid-column: 1 / 1;
   }
+  .asd {
+    border-bottom: 1px solid;
+  }
   
   .mains-name {
     margin: 0;
@@ -106,9 +109,21 @@
   }
   
   .extras {
+    color: var(--primary);
+  }
+
+  .extras-desc {
     color: var(--secondary);
   }
   
+  .lisatiedot {
+    border-bottom: 1px solid var(--primary);
+  }
+
+  .tarinamme {
+    border-bottom: 1px solid var(--primary);
+  }
+
   .extras + .extras {
     margin-top: 1.5rem;
   }
@@ -121,13 +136,17 @@
   
   .extras .menu-item {
     margin-bottom: 0.75rem;
+    color: var(--primary)
   }
   
   .extras-heading {
     margin: 0 0 1.5rem;
-    border-bottom: 1px solid var(--secondary);
+    border-bottom: 1px solid var(--primary);
   }
-  
+  .extras-Juomat {
+    color: var(--primary)
+  }
+
   .extras-name {
     flex-grow: 1;
   }
