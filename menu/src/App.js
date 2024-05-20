@@ -13,27 +13,27 @@ export default function App() {
     <Provider>
       <div className="menu">
       <Logo></Logo>
-      <h1> Vivia's Fine Dining </h1>
+      <h1> Kaske's Fine Dining </h1>
       <h2 className="tarinamme"> Tarinamme</h2>
-      <div>Vivian kiertävä ravintola ei sido sinua paikkaan, vaan se saapuu suoraan kotikeittiöösi. Soijakastike muuttuu taikajuomaksi, ja riisi muuttuu pieniksi valkoisiksi pilviksi. Vivia tuo mukanaan aasialaisen makujen seikkailun, joka ei vaadi sinua poistumaan kotoasi. Ravintolamme on liikkuva keittiö, joka tarjoaa herkullisia aterioita ja aitoja makuelämyksiä missä ikinä oletkin. Anna Vivian viedä sinut matkalle, joka yhdistää ruoan ilon ja kodikkuuden suoraan sinun ruokapöytääsi.</div>
-      <h2 className="asd">Menu tofu (voimassa 26.-27.12.2023)</h2>
+      <div>Kaske's-ravintola sijaitsee henkeäsalpaavissa järvimaisemissa, jossa luonto ja herkulliset raaka-aineet kohtaavat. Ravintola tarjoaa unohtumattoman ruokailuelämyksen, jossa voit nauttia tuoreista, paikallisista raaka-aineista valmistettuja annoksia samalla, kun ihailet järven rauhoittavaa kauneutta ja ympäröivää vehreyttä. Tule kokemaan, miten ensiluokkaiset raaka-aineet ja luonnon harmonia yhdistyvät taidokkaasti valmistetuissa annoksissamme.</div>
+      <h2 className="asd">Juhlamenu (voimassa 24.5.2024)</h2>
         <Mains meals={[
                 {
                   "name": "Alkuruoka",
-                  "name2": "THAI TOFU LARB | THAIMAALAINEN SALAATTI VIVIAN TAPAAN",
-                  "description": "Larb gai on Thaimaassa ja Laosissa suositti salaatti, jossa maustettua jauhelihaa tarjoillaan salaatinlehdellä. Kasvis-larbissa käytetään rapeaa aasialaisittain marinoitua tofua, joka paahtuu helposti rapeaksi pannulla. Lisäksi salaatissa on paljon tuoreita yrttejä ja chiliä tuomaan potkua.",
+                  "name2": "SUUSSA SULAVA MAA-ARTISOKKAKEITTO",
+                  "description": "Tämä samettisen pehmeä maa-artisokkakeitto on täydellinen alkuruoka kevään juhla-aterioille. Maa-artisokkien luonnollinen makeus ja pähkinäinen maku yhdistyvät kermamaiseen rakenteeseen, luoden ylellisen ja täyteläisen keiton, joka hivelee makuhermoja. Keitto tarjoillaan vastapaistetun maalaisleivän kera.",
                   "price": "17"
                 },
                 {
                   "name": "Pääruoka",
-                  "name2": "KOREAN FRIED TOFU (KFT) BUN | KOREALAISET HÖYRYTETYT TOFU-BUNIT",
-                  "description": "Rapeat tofupalat tahmeassa, makean tulisessa kastikkeessa ja Vivian kiertävässä keittiössä höyrytetyt korealaiset sämpylät. Annosta täydentävät kimchi sekä pikkelöidyt kurkut.",
+                  "name2": "PÄIVÄN KALAA, PALSTERNAKKAPYRETTÄ JA PARSAA",
+                  "description": "Hemmottele itseäsi päivän kalalla - täydellisen tasapainoisella annoksella. Hienovaraisesti paistettu kala tarjoillaan samettisen palsternakkapyreen kera, joka tuo esiin makean ja maanläheisen vivahteen. Annos viimeistellään höyrytetyillä parsoilla, jotka tuovat mukaan raikkaan ja keväisen säväyksen. Tämä pääruoka on mestarillinen yhdistelmä makuja ja tekstuureja, joka tarjoaa niin visuaalista kuin kulinaarista nautintoa, jättäen sinut tyytyväiseksi ja kaipaamaan lisää.",
                   "price": "17"
                 },
                 {
                   "name": "Jälkiruoka",
-                  "name2": "SULOISEN SUOMALAINEN MARJA-SORBETTI KEKSIN KERA",
-                  "description": "Nauti makujen lumosta viimeistä piirtoa myöten herkullisella suomalaisella marja-sorbetilla, joka tarjoillaan tuoreiden kotimaisten marjojen ja rapean keksin kera. Tämä raikas ja värikäs jälkiruoka kruunaa ateriasi makealla huipentumalla, jättäen sinulle ikimuistoisen makukokemuksen.",
+                  "name2": "MOKKAHOVI",
+                  "description": "Mokkahovi on kakku, jonka vuoksi asiakkaat palaavat ravintola Kaske'siin kerta toisensa jälkeen. Tämä klassikkoresepti yhdistää kahvin, tuorejuuston ja kerman pettämättömällä tavalla, luoden vastustamattoman makuelämyksen.",
                   "price": "17"
                 },]
         } />

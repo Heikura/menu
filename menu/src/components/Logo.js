@@ -1,5 +1,5 @@
 import React from "react";
-import logoo from "../vivia3.png";
+import logoo from "../kaskes.jpg";
 
 export default function Logo() {
   return (
