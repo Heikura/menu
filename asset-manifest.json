@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/menu/static/css/main.fdc3cef8.css",
-    "main.js": "/menu/static/js/main.30fb4aba.js",
-    "static/media/vivia3.png": "/menu/static/media/vivia3.eed86b14c2e978955276.png",
+    "main.js": "/menu/static/js/main.a067792b.js",
+    "static/media/kaskes.jpg": "/menu/static/media/kaskes.888e7ab53567f0808c16.jpg",
     "index.html": "/menu/index.html",
     "main.fdc3cef8.css.map": "/menu/static/css/main.fdc3cef8.css.map",
-    "main.30fb4aba.js.map": "/menu/static/js/main.30fb4aba.js.map"
+    "main.a067792b.js.map": "/menu/static/js/main.a067792b.js.map"
   },
   "entrypoints": [
     "static/css/main.fdc3cef8.css",
-    "static/js/main.30fb4aba.js"
+    "static/js/main.a067792b.js"
   ]
 }
