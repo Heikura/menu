@@ -21,7 +21,7 @@ export default function App() {
                 {
                   "name": "Alkuruoka",
                   "name2": "SUUSSA SULAVA MAA-ARTISOKKAKEITTO",
-                  "description": "Tämä samettisen pehmeä maa-artisokkakeitto on täydellinen alkuruoka kevään juhla-aterioille. Maa-artisokkien luonnollinen makeus ja pähkinäinen maku yhdistyvät kermamaiseen rakenteeseen, luoden ylellisen ja täyteläisen keiton, joka hivelee makuhermoja. Keitto tarjoillaan vastapaistetun maalaisleivän kera.",
+                  "description": "Tämä samettisen pehmeä maa-artisokkakeitto on täydellinen alkuruoka tälle juhlamenulle. Maa-artisokkien luonnollinen makeus ja pähkinäinen maku yhdistyvät kermamaiseen rakenteeseen, luoden ylellisen ja täyteläisen keiton, joka hivelee makuhermoja. Keitto tarjoillaan vastapaistetun maalaisleivän kera.",
                   "price": "17"
                 },
                 {
