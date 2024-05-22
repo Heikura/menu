@@ -15,25 +15,25 @@ export default function App() {
       <Logo></Logo>
       <h1> Kaske's Fine Dining </h1>
       <h2 className="tarinamme"> Tarinamme</h2>
-      <div>Kaske's-ravintola sijaitsee henkeäsalpaavissa järvimaisemissa, jossa luonto ja herkulliset raaka-aineet kohtaavat. Ravintola tarjoaa unohtumattoman ruokailuelämyksen, jossa voit nauttia tuoreista, paikallisista raaka-aineista valmistettuja annoksia samalla, kun ihailet järven rauhoittavaa kauneutta ja ympäröivää vehreyttä. Tule kokemaan, miten ensiluokkaiset raaka-aineet ja luonnon harmonia yhdistyvät taidokkaasti valmistetuissa annoksissamme.</div>
-      <h2 className="asd">Juhlamenu (voimassa 24.5.2024)</h2>
+      <div>Tervetuloa makumatkalle Kaskesniemen henkeäsalpaaviin järvimaisemiin. Kaske’sissa sinua palvelee intohimoisesti ruuanlaittoon suhtautuva kuusikko, jonka pääkokkeina hääräävät taaperot Sinna ja Vivia. Me Kaske’sissa tarjoamme sinulle ja läheisillesi unohtumattoman ruokailuelämyksen, jossa yhdistyvät laadukkaat raaka-aineet, kiireetön yhdessäolo ja kaunis luontomiljöö.</div>
+      <h2 className="asd">Jussin 60v-juhlamenu (voimassa 24.5.2024)</h2>
         <Mains meals={[
                 {
                   "name": "Alkuruoka",
-                  "name2": "SUUSSA SULAVA MAA-ARTISOKKAKEITTO",
-                  "description": "Tämä samettisen pehmeä maa-artisokkakeitto on täydellinen alkuruoka tälle juhlamenulle. Maa-artisokkien luonnollinen makeus ja pähkinäinen maku yhdistyvät kermamaiseen rakenteeseen, luoden ylellisen ja täyteläisen keiton, joka hivelee makuhermoja. Keitto tarjoillaan vastapaistetun maalaisleivän kera.",
+                  "name2": "”PITKÄ KUUMA KEITTO” - SUUSSA SULAVA MAA-ARTISOKKAKEITTO",
+                  "description": "Miten väärässä 1600-luvulla elänyt kasvitieteilijä John Goodyer olikaan väittäessään maa-artisokan sopivan lähinnä sian ruuaksi. Ainakaan Goodyer ei ollut maistanut Kaske’sin samettista maa-artisokkakeittoa. Perttu Lepän kulttiklassikon mukaan nimetyssä alkuruuassa maa-artisokan luonnollinen makeus ja pähkinäisyys yhdistyvät kermaiseen rakenteeseen, lopputuloksena ylellinen ja täyteläinen keitto. Keitto tarjoillaan vastapaistetun maalaisleivän kera.",
                   "price": "17"
                 },
                 {
                   "name": "Pääruoka",
-                  "name2": "PÄIVÄN KALAA, PALSTERNAKKAPYRETTÄ JA PARSAA",
-                  "description": "Hemmottele itseäsi päivän kalalla - täydellisen tasapainoisella annoksella. Hienovaraisesti paistettu kala tarjoillaan samettisen palsternakkapyreen kera, joka tuo esiin makean ja maanläheisen vivahteen. Annos viimeistellään höyrytetyillä parsoilla, jotka tuovat mukaan raikkaan ja keväisen säväyksen. Tämä pääruoka on mestarillinen yhdistelmä makuja ja tekstuureja, joka tarjoaa niin visuaalista kuin kulinaarista nautintoa, jättäen sinut tyytyväiseksi ja kaipaamaan lisää.",
+                  "name2": "”HELMIÄ JA SIIKOJA” - SIIKAA, PALSTERNAKKAPYREETÄ, PARSAA JA BEURRE MONTÉ -KASTIKETTA",
+                  "description": "”Siikahan se siellä” huudetaan legendaariseksi meemiksi muodostuneessa YouTube-videossa. Viitisentoista vuotta sitten päivänvalon nähneen videon tapaan myös Kaske’sin keittiössä siika on pääosassa. Tarjoilemme kalan herkullisen palsternakkapyreen ja sitruunaisen beurre monté -kastikkeen kera. Annos viimeistellään höyrytetyillä parsoilla, jotka tuovat mukaan raikkaan ja keväisen säväyksen. Uskallamme väittää, että tämä makujen sinfonia peittoaa ainakin Helmistä ja Sioista tuttujen Hirvosen poikien ”pikkusuolaset”.",
                   "price": "17"
                 },
                 {
                   "name": "Jälkiruoka",
-                  "name2": "MOKKAHOVI",
-                  "description": "Mokkahovi on kakku, jonka vuoksi asiakkaat palaavat ravintola Kaske'siin kerta toisensa jälkeen. Tämä klassikkoresepti yhdistää kahvin, tuorejuuston ja kerman pettämättömällä tavalla, luoden vastustamattoman makuelämyksen.",
+                  "name2": "”KULMAN MOKAT” - MOKKAHOVI-TÄYTEKAKKU",
+                  "description": "Illan kruunaa joensuulaisen täytekakkukilvan kiistämätön voittaja, Mokkahovi. Tämä klassikkoresepti yhdistää kahvin, tuorejuuston ja kerman pettämättömällä tavalla, luoden vastustamattoman makuelämyksen. Huhu kertoo, että Kulman pojat -elokuvan kuvausten aikana Eero Ritala rakastui Houkutuksen Mokkahoviin ikihyviksi. Olipa tarina tosi tai ei, Mokkahovi on kakku, johon Ritalakin varmasti rakastuisi.",
                   "price": "17"
                 },]
         } />
@@ -54,9 +54,6 @@ export default function App() {
       </aside>
       <h3 className="lisatiedot"> Lisätiedot</h3>
       <div>Varaathan menun nauttimiseen reilut kaksi tuntia.</div>
-
-      <li>Menu 59 € / vieras</li>
-      <li>Juomat 41 € / vieras </li>
       <div>Huomioimme mahdollisuuksien mukaan kaikki erityisruokavaliot ja allergiat yksilöllisesti. Ilmoitathan niistä meille ennakkoon, jotta voimme tehdä kaikkemme taataksemme ikimuistoisen illan.</div>
       </div>
     </Provider>
