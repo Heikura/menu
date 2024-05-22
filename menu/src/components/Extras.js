@@ -4,7 +4,7 @@ export default function Extras({ type, items }) {
   return (
     <section className="extras">
       <h2 className="extras-heading">{type}</h2>
-      <div className="extras-desc"> Menuumme on saatavilla juomapaketti, joka sisältää alkumaljan, pääruoalle valkoviinin sekä jälkiruoalle Friday -erikoisolut. Jälkiruoan lisäksi valittavissa on espresso. Lisäksi juomapakettiin sisältyy rajaton määrä hanavettä.</div>
+      <div className="extras-desc">Menuun kuuluu juomapaketti, joka sisältää alkuun samppanjaa, pääruoalle valkoviinin sekä jälkiruoalle tynnyrikypsytetyn imperial stoutin. Jälkiruuan yhteyteen on valittavissa myös espresso. Lisäksi juomapakettiin sisältyy rajaton määrä hanavettä.</div>
     </section>
   );
 }
