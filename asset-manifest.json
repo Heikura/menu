@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/menu/static/css/main.fdc3cef8.css",
-    "main.js": "/menu/static/js/main.a067792b.js",
+    "main.js": "/menu/static/js/main.f3232a29.js",
     "static/media/kaskes.jpg": "/menu/static/media/kaskes.888e7ab53567f0808c16.jpg",
     "index.html": "/menu/index.html",
     "main.fdc3cef8.css.map": "/menu/static/css/main.fdc3cef8.css.map",
-    "main.a067792b.js.map": "/menu/static/js/main.a067792b.js.map"
+    "main.f3232a29.js.map": "/menu/static/js/main.f3232a29.js.map"
   },
   "entrypoints": [
     "static/css/main.fdc3cef8.css",
-    "static/js/main.a067792b.js"
+    "static/js/main.f3232a29.js"
   ]
 }
