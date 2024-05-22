@@ -27,7 +27,7 @@ export default function App() {
                 {
                   "name": "Pääruoka",
                   "name2": "”HELMIÄ JA SIIKOJA” - SIIKAA, PALSTERNAKKAPYREETÄ, PARSAA JA BEURRE MONTÉ -KASTIKETTA",
-                  "description": "”Siikahan se siellä” huudetaan legendaariseksi meemiksi muodostuneessa YouTube-videossa. Viitisentoista vuotta sitten päivänvalon nähneen videon tapaan myös Kaske’sin keittiössä siika on pääosassa. Tarjoilemme kalan herkullisen palsternakkapyreen ja sitruunaisen beurre monté -kastikkeen kera. Annos viimeistellään höyrytetyillä parsoilla, jotka tuovat mukaan raikkaan ja keväisen säväyksen. Uskallamme väittää, että tämä makujen sinfonia peittoaa ainakin Helmistä ja Sioista tuttujen Hirvosen poikien ”pikkusuolaset”.",
+                  "description": "”Siikahan se siellä” huudetaan legendaariseksi meemiksi muodostuneessa YouTube-videossa. Viitisentoista vuotta sitten päivänvalon nähneen videon tapaan myös Kaske’sin keittiössä siika on pääosassa. Tarjoilemme kalan herkullisen palsternakkapyreen ja sitruunaisen beurre monté -kastikkeen kera. Annos viimeistellään grillatuilla parsoilla, jotka tuovat mukaan raikkaan ja keväisen säväyksen. Uskallamme väittää, että tämä makujen sinfonia peittoaa ainakin Helmistä ja Sioista tuttujen Hirvosen poikien ”pikkusuolaset”.",
                   "price": "17"
                 },
                 {
